@@ -1,0 +1,92 @@
+body{
+	margin: auto;
+	/*background: url("bg.png") no-repeat center center;*/
+	background-color: #F5FAFE;
+	background-size: cover;
+
+}
+
+p{
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;
+}
+
+.message{	
+	position: relative;
+	max-width: 750px;
+	margin: auto;
+}
+
+#title{
+	font-size:20px;
+	font-weight: bold;
+	color: #365F91;
+	padding: 2px 0px 2px 0px;
+	margin: 40px 0px 5px 0px;
+	/*border-left: 2px;
+	border-left-style: solid;
+	border-left-color: #002F7A;*/
+}
+
+
+#description{
+	position: relative;
+	margin: auto;
+	height: 400px;
+	max-width: 90%;
+	/*border-radius: 10px;*/
+	background-color: rgba(255,255,255,0.7);
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#hope{
+	position: absolute;
+	width: 100%;
+	bottom:0px !important;
+	text-align: right !important;
+	font-family: Monospace;
+	/*margin: 2px 0 5px -13px;*/
+	padding: 2px 0;
+	color:#FF8F8F;
+	font-weight: bold;
+	background:rgba(48, 48, 48, 0.85);
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#button{
+	margin: 5% 5% 0 auto;
+	width: 30%;
+	max-width: 130px;
+	padding: 2px 0 0 0;
+	background-color: #00a9ca;
+	color: #ffffff;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+#border{
+	height: 5px;
+	bottom: 0px;
+	width: 100%;
+	background-color: #4FB1C3;
+	/*visibility: hidden;*/
+	opacity: 0;
+}
+
+#button:hover{
+	background-color: #0792AD;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	/*visibility: hidden;*/}
+
+footer{
+	position: relative;
+	background-color: #303030;
+	width: 100%;
+	bottom: 0px;
+}
+footer:div{
+	color: #ffffff;
+	
+	text-align: center;
+}
