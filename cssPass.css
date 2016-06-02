@@ -10,6 +10,10 @@ p{
 	font-family: Arial,Helvetica,sans-serif;
 	text-align: center;
 }
+tr,td{
+	padding-bottom: 2px;
+}
+
 
 .message{	
 	position: relative;
@@ -39,7 +43,40 @@ p{
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-#hope{
+#desc_text{
+	padding: 5% 4%;
+	bottom: 0px;
+	height: 100%;
+
+}
+
+.td_title{
+	text-align: center;
+	font-weight: bolder;
+	color: #F4F4F4;
+	width: 20%;
+	background-color: #365F91;
+	padding: 2px;
+	
+}
+
+#div_name_start{
+	bottom: 0px;
+	height: 100%;
+	margin: 10% 0;
+}
+.div_name{
+	margin: 3px;
+	width: 100%;
+	text-align: right;
+}
+#div_start{
+	width: 100%;
+	text-align: right;
+	bottom: 0px;
+}
+
+#desc_hope{
 	position: absolute;
 	width: 100%;
 	bottom:0px !important;
