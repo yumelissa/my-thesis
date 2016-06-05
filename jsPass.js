@@ -3,12 +3,12 @@ function openweb(){
 	
 
 	url_Ary=new Array;
-	url_Ary[0]='http://www.google.com';
-	url_Ary[1]='http://www.facebook.com';
-	url_Ary[2]='http://www.yahoo.com';
-	url_Ary[3]='http://www.nccu.edu.tw';
-	url_Ary[4]='http://www.plurk.com';
-	url_Ary[5]='http://www.youtube.com';
+	url_Ary[0]='http://www.mysurvey.tw/s/2R29FrDp';
+	url_Ary[1]='http://www.mysurvey.tw/s/6YxwEmFP';
+	url_Ary[2]='http://www.mysurvey.tw/s/aKsCY2wE';
+	url_Ary[3]='http://www.mysurvey.tw/s/seXq4kmz';
+	url_Ary[4]='http://www.mysurvey.tw/s/9k5Bn6Gm';
+	url_Ary[5]='http://www.mysurvey.tw/s/9k5Bn6Gm';
 
 	chooseOne=Math.floor(Math.random()*(url_Ary.length));
 
