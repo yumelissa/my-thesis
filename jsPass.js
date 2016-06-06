@@ -8,11 +8,12 @@ function openweb(){
 	url_Ary[2]='http://www.mysurvey.tw/s/aKsCY2wE';
 	url_Ary[3]='http://www.mysurvey.tw/s/seXq4kmz';
 	url_Ary[4]='http://www.mysurvey.tw/s/9k5Bn6Gm';
-	url_Ary[5]='http://www.mysurvey.tw/s/9k5Bn6Gm';
+	url_Ary[5]='http://www.mysurvey.tw/s/eh3akcrr';
 
 	chooseOne=Math.floor(Math.random()*(url_Ary.length));
 
 	window.open(url_Ary[chooseOne]);
+
 
 };
 
@@ -43,7 +44,7 @@ function test(){
 	g=0;
 
 	//window.open('http://www.google.com');
-	for(i=0;i<400;i++){
+	for(i=0;i<40;i++){
 		url_Ary=new Array;
 		url_Ary[0]='http://www.google.com';
 		url_Ary[1]='http://www.facebook.com';
@@ -90,6 +91,6 @@ function test(){
 			document.write("4:"+d+String(url_Ary[3])+"</br>");
 			document.write("5:"+e+String(url_Ary[4])+"</br>");
 			document.write("6:"+f+String(url_Ary[5])+"</br>");
-			document.write("7:"+g+"</br>");			
+			//document.write("7:"+g+"</br>");			
 };
 
