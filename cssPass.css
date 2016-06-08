@@ -11,7 +11,11 @@ p{
 	text-align: center;
 }
 tr,td{
-	padding-bottom: 4px;
+	padding-bottom: 7px;
+}
+
+.td_detail{
+	line-height: 20px;
 }
 
 
